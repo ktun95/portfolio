@@ -14,6 +14,13 @@ export const Home = () => {
                 ]} />
             </Section>
             <Section>
+                <Article header={'About'} content={<p>
+                    This blog/portfolio is in its most nascent stage. Its structure, content, aesthetic, and purpose will likely evolve over time.
+                    Mainly this will serve to chronicle my exploration of topics in programming, web development, computer science, and the like. But sometimes it won't be that.
+                    Feel free to send me an <a href='mailto:kevintun01@gmail.com'>email</a> about literally anything.
+                </p>}/>
+            </Section>
+            <Section>
                 <Article
                     header={'Projects'}
                     content={[
@@ -37,9 +44,6 @@ export const Home = () => {
                     content={
                         'this is a test'
                     } /> */}
-            </Section>
-            <Section>
-                <Article header={'Scrapyard'}/>
             </Section>
 
         </React.Fragment>
