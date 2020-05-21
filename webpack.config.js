@@ -1,10 +1,7 @@
-let BUILD;
-
-if (process.env.NODE_ENV === 'PRODUCTION') BUILD = 'production'
-if (process.env.NODE_ENV === 'DEVELOPMENT') BUILD = 'development'
+const isDev = (process.env.NODE_ENV === 'development')
 
 module.exports = {
-    mode: 'development',
+    mode: isDev ? 'development' : 'production',
     entry: [
       '@babel/polyfill', // enables async-await
       './client/index.js'
