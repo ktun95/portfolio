@@ -43,11 +43,6 @@ export const Home = () => {
 
                             ]}
                 />
-                {/* <Article
-                    header={'Projects'}
-                    content={
-                        'this is a test'
-                    } /> */}
             </Section>
 
         </React.Fragment>
