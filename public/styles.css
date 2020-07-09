@@ -30,6 +30,12 @@ a:active {
     color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .content-area {
+        width: 100%;
+    }
+}
+
 .content-area {
     width: 50%;
     margin: auto;

@@ -29,13 +29,17 @@ export const Home = () => {
                                 link={'https://monkey-memory.herokuapp.com/'}
                                 description={'Implementation of a memory test like those used in studies of the working memory of chimpanzees. Built with React'} />,
                             <ProjectLink 
+                                title={'itinerary-temporary-name-app'}
+                                link={'https://tranquil-headland-56071.herokuapp.com/'}
+                                description={'Plan a trip filled with activities! See them appear on the map! Very WIP!'} />,
+                            <ProjectLink 
                                 title={'mineralogie'}
                                 link={'https://mineralogie.herokuapp.com/'}
                                 description={'Mock e-commerce site for purchasing rocks'} />,
                             <ProjectLink 
-                                title={'itinerary-temporary-name-app'}
-                                link={'https://tranquil-headland-56071.herokuapp.com/'}
-                                description={'Plan a trip filled with activities! See them appear on the map! Very WIP!'} />
+                                title={'Firechat95'}
+                                link={'https://fir-exploration-deee2.firebaseapp.com/'}
+                                description={'Proximity-based chatroom application'} />
 
                             ]}
                 />
